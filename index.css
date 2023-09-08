@@ -1,0 +1,71 @@
+ *{
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #calculator{
+        width: 28vw;
+        height: 67vh;
+        border: 5px solid rgba(24, 96, 67, 0.498);
+        border-style:groove;
+        margin-top: 80px;
+        background-color: rgba(24, 96, 67, 0.498);
+        border-radius: 6vh;
+
+ }
+ #display{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border:none;
+    background-color: rgba(24, 96, 67, 0.092);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: right;
+    border-radius: 60px;
+    color: rgba(24, 96, 67, 0.418);
+    }
+   .content-display{
+       color: rgba(24, 96, 67, 0.418);
+       border-radius: 60px;
+         width: 25vw;
+        height: 60px;
+        border: 3px solid rgba(24, 96, 67, 0.498);
+        margin: 20px 0px 0px 15px;
+        background-color: rgba(24, 96, 67, 0.088);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+        font-size: 42px;
+        text-align: right;
+        
+      }
+   .btns{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    row-gap:18px;
+     margin: 22px 10px 0px 22px;
+   }
+   .btn{
+   background-color: rgba(24, 96, 67, 0.498);
+   width: 65px;
+   height: 45px;
+   border: 2px solid rgba(24, 96, 67, 0.498); 
+   cursor:pointer;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    font-weight: 900;
+    border-radius: 45px;
+    box-shadow: 10px 10px 10px rgba(24, 96, 67, 0.5);
+   } 
+   .btn:hover{
+    transform: scale(0.95);
+    
+}
