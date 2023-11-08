@@ -69,3 +69,26 @@
     transform: scale(0.95);
     
 }
+
+
+
+/* -------------------------------------Media Query----------------------------------- */
+
+@media only screen and (max-width:415px){   
+   #calculator{
+      width: fit-content;
+      height: fit-content;
+}
+#display{
+   }
+.content-display{
+   width:88%;
+    height:8vh;
+    margin: 20px 0px 10px 20px; 
+  }
+
+  .btns{
+   gap: 15px;
+  }
+
+}
